@@ -108,13 +108,13 @@ MVPを定義する
 
 MVCモデルに加えて、ビジネスロジックを管理するServiceクラス、データベース処理を管理するRepositoryクラスを追加する。
 
-## 設計
+# 設計
 
-### DB設計
+## DB設計
 
 [ER図](db/kanji_db.drawio.png)
 
-### API設計
+## API設計
 
 イベント
 - GET /api/events/{event_id}
@@ -201,6 +201,6 @@ MVCモデルに加えて、ビジネスロジックを管理するServiceクラ�
     - パラメータ: event_id (イベントのID), location_id (開催場所のID)
     - レスポンス: 提案された候補開催場所のリスト
 
-### 画面設計
+## 画面設計
 
 [Figma](https://www.figma.com/file/yUlIklKrFfNhMBnAx8V1oB/イベント管理ツール?type=design&node-id=0%3A1&mode=design&t=pAPeBW0TGfuVO4gY-1)
